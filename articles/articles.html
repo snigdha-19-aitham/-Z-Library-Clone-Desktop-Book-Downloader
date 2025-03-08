@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+    <link rel="stylesheet" href="./articles.css" />
+    <!-- <link rel="stylesheet" href="./pageflipping.css"/> -->
+</head>
+
+<body>
+    <nav id="navbar" class="navbar">
+        <ul>
+            <li><a href="../home/home.html" id="home">Home</a></li>
+            <li><a href="../books/books.html" id="books">Books</a></li>
+            <li><a href="#" id="articles">Articles</a></li>
+
+            <li class="nav-items-right"><a href="../signin_signup/html/login.html">Sign In</a></li>
+        </ul>
+    </nav>
+    <section id="article">
+        <img src="../logo6.jpeg" class="logo" />
+        <p class="smallsection">Articles</p>
+        <p>Part of Z-Library project. The world's largest scientific articles store. 70,000,000+ articles for free.</p>
+        <form>
+            <input type="text" class="input" placeholder="Search for title, author,DOI, journal, md5.." />
+            <button class="search">Search</button>
+            <button id="searchoptions" class="searchoptions">search options</button>
+            <div id="match" class="match">Match Exact Date<input type="checkbox" /></div>
+            <select id="start">
+                <option>year from</option>
+            </select>
+            <select id="end">
+                <option>year to</option>
+            </select>
+        </form>
+    </section>
+
+    <!-- <div id="maincontent">
+ 
+    <div id="book" class="book">
+        <!-- Home
+        <div id="p1" class="paper">
+            <div class="front">
+               
+                Home
+            </div>
+        </div>
+        <!-- Books
+        <div id="p2" class="paper">
+            <div class="front">
+                
+            </div>
+        </div>
+        <!-- Articles
+        <div id="p3" class="paper">
+            <div class="front">
+                
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+    <script>
+        document.getElementById('searchoptions').addEventListener('click', (e) => {
+            document.getElementById('start').style.display = "block";
+            document.getElementById('end').style.display = "block";
+            document.getElementById('match').style.display = "block";
+        });
+    </script>
+    <script src="./pageflip.js"></script>
+</body>
+
+</html>

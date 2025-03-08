@@ -1,0 +1,92 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    /* background: #001920; */
+    background: #a04ff2;
+    /* background: linear-gradient(120deg,#6f82e4,#1f2ede,#fb00ff); */
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 0 10px;
+    /* background: #eceff1; */
+    /* background: powderblue; */
+    height: 40px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 15px;
+    text-align: center;
+    float: left;
+}
+
+.navbar a:hover {
+    background-color: rgb(244, 250, 252);
+    color: #20a2c6;
+    border-radius: 50px;
+}
+
+.navbar .nav-items-right {
+    margin-left: auto;
+    margin-right: 10px;
+    order: 2;
+}
+
+#leftbox {
+    float: left;
+    padding-left: 300px;
+    height: 100px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#middlebox {
+    float: left;
+    padding-left: 300px;
+    height: 100px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#rightbox {
+    float: right;
+    padding-right: 300px;
+    height: 100px;
+    text-align: center;
+    padding-top: 200px;
+}

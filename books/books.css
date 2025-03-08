@@ -1,0 +1,27 @@
+body {
+    overflow-y: scroll !important;
+}
+
+.div1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #ffdf2c;
+    margin-top: 400px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 100px;
+    height: 120px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
